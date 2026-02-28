@@ -1,24 +1,12 @@
-//
-//  ContentView.swift
-//  DeutchFlash
-//
-//  Created by Yasir Bilir on 28.02.2026.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            HomeView()
         }
-        .padding()
     }
 }
-
 #Preview {
     ContentView()
 }
